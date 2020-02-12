@@ -1,25 +1,33 @@
 <!doctype html>
 <html lang="en">
 <style>
-  .contenedor-sobre-nosotros{
+
+
+.contenedor-sobre-nosotros{
 	display: flex;
 	justify-content: space-evenly;
+  width: 100%;
+}
+
+.sobre-nosotros .contenido-textos{
+	width: 40%;
+
 }
 .imagen-about-us{
-	width: 48%;
-  margin-right: 15px;
-}
-.sobre-nosotros .contenido-textos{
-	width: 48%;
-  
+  width: 40%;
+  margin-right: 10px;
 }
 .aea-mano{
   font-size: 18px;
   padding: 5px;
 }
 .imagen-con{
-  width: 90%;
-  
+  width: 100%;
+}
+@media screen and (max-width: 800px) {
+
+    
+    
 }
 
 </style>
@@ -94,18 +102,22 @@
       <div class="row">
         <div class="col-md-8 col-md-offset-2">
           <div class="heading">
-            <h3><span>Nosotros somos</span></h3>
+            <h3><span>Nosotros</span></h3>
           </div>
           <div class="sub-heading">
             
           </div>
         </div>
       </div>
+    </div>
+
+    <div class="container">
       <div class="row">
-        <div class="contenedor-sobre-nosotros">
-          <img src="assets/img/portfolio/Imagen03.jpg" class="imagen-about-us">
-          <div class="contenido-textos">
-            <p class="aea-mano">
+        <div class="col-md-6">
+          
+          <!-- start contact form -->
+          <div class="cform" id="contact-form">
+            <p class>
               Contamos personal altamente capacitado,
                 cuando se trata de construcción, solemos pensar que la única alternativa es el ladrillo y el cemento. 
                 Sin embargo, el drywall es un sistema de construcción en seco que existe hace más de 100 años en el mundo,
@@ -113,27 +125,34 @@
             </p>
 
     
-              <p class="aea-mano">
+              <p class>
                 Este sistema ya es usado sectores como el de salud (hospitales, clínicas, postas médicas), comercial (centros comerciales, cines, oficinas), educación (colegios, universidades, institutos) y en el industrial. Está empezando a tener mayor acogida en el sector vivienda sobre todo para ampliaciones y azoteas debido a sus diversos beneficios.
 
               </p>
               
-              <h5 class="aea-mano">Beneficios</h5>
-              <p class="aea-mano">
+              <h5 class=>Beneficios</h5>
+              <p class=>
                 -Resistente a sismos.<br>
                 -Aislación térmica y acústica.<br>
                 -Instalación rápida.<br>
                 -Ahorro en costos.<br>
                 -Ahorra espacio.<br>
               </p>
-            </div>
-          </div>
 
-        
+      
+          </div>
+          <!-- END contact form -->
+        </div>
+        <div class="col-md-6">
+          
+          <!-- map -->
+          <div id="section-map" class="clearfix">
+            <div class="contenedor-sobre-nosotros" ><img src="assets/img/portfolio/Imagen03.jpg" class="imagen-con" ></div>
+          </div>
+        </div>
       </div>
-  
     </div>
-  </section>
+    
   <!-- end section about -->
   <!-- section works -->
   <section id="works" class="section gray">
