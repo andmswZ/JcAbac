@@ -1197,3 +1197,26 @@ a.socialIcon:hover, .socialHoverClass {
 		margin-bottom: 30px;
 	}
 }
+
+
+.contenedor-sobre-nosotros{
+	display: flex;
+	justify-content: space-evenly;
+  width: 100%;
+}
+
+.sobre-nosotros .contenido-textos{
+	width: 40%;
+
+}
+.imagen-about-us{
+  width: 40%;
+  margin-right: 10px;
+}
+.aea-mano{
+  font-size: 18px;
+  padding: 5px;
+}
+.imagen-con{
+  width: 100%;
+}
